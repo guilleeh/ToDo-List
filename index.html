@@ -4,16 +4,18 @@
   	<title>Todo List</title>
   	<script type="text/javascript" src="assets/js/lib/jquery-3.3.1.min.js"></script>
   	<link rel="stylesheet" type="text/css" href="assets/css/todos.css">
+  	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   </head>
   <body>
   
   	<div class="container">
-  		<h1>To-Do List</h1>
-  		<input type="text" value="">
+  		<h1>To-Do List<span id="toggle"><i class="far fa-edit"></i></span></h1>
+  		<input type="text" placeholder="Add New Todo">
   		<ul class="list">
-  			<li class="list-item"><span> X </span>Here</li>
-  			<li class="list-item"><span> X </span>Are</li>
-  			<li class="list-item"><span> X </span>Items</li> 		
+  			<li class="list-item"><span class="item"><i class="far fa-trash-alt"></i></span>These</li>
+  			<li class="list-item"><span class="item"><i class="far fa-trash-alt"></i></span>Are</li>
+  			<li class="list-item"><span class="item"><i class="far fa-trash-alt"></i></span>Sample Tasks</li> 		
   		</ul>
   	</div>
 
